@@ -1,29 +1,14 @@
 [
   {
-    "PhotoLink": "https://via.placeholder.com/100x125?text=Photo+3.5x4.5cm",
     "Name": "Farhad",
     "LastName": "Ehsan",
-    "FatherName": "Ramazan",
     "Nationality": "Afghan",
     "NationalID": "101010",
-    "PassportNumber": "202020",
-    "PassportIssueDate": "01/01/2000",
-    "PassportExpiryDate": "01/01/2030",
-    "MaritalStatus": "Married",
-    "SpouseName": "Neda",
-    "SpouseLastName": "Akbari",
-    "SpouseFatherName": "Yousuf",
-    "SpouseNationality": "Afghan",
-    "SpouseNationalID": "303030",
-    "SpousePassportNumber": "404040",
-    "SpousePassportIssueDate": "01/01/2000",
-    "SpousePassportExpiryDate": "01/01/2030",
-    "CEUNumber": "CEU-5678",
-    "TypeOfDoc": "Humanitarian/Resettlement",
-    "ApprovalDate": "20/08/2025",
-    "ChildrenCount": "2",
-    "SonsCount": "1",
-    "DaughtersCount": "1",
-    "PaymentAmount": "230 EUR"
+    "CEUNumber": "202020",
+    "CaseType": "Humanitarian",
+    "CaseApprovalDate": "01/01/2025",
+    "ScheduledInterviewDate": "17/11/2025",
+    "InterviewPaymentAmount": "230 Euro",
+    "ApplicantReferringOrganization": "UNHCR"
   }
 ]
