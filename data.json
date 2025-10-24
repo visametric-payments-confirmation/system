@@ -1,14 +1,14 @@
 [
   {
-    "Name": "Farhad",
-    "LastName": "Ehsan",
-    "Nationality": "Afghan",
-    "NationalID": "101010",
-    "CEUNumber": "202020",
-    "CaseType": "Humanitarian",
-    "CaseApprovalDate": "01/01/2025",
-    "ScheduledInterviewDate": "17/11/2025",
-    "InterviewPaymentAmount": "230 Euro",
-    "ApplicantReferringOrganization": "UNHCR"
+    "اسم": "فرهاد",
+    "تخلص": "احسان",
+    "ملیت": "افغان",
+    "نمبر کارت ملی": "101010",
+    "CEU Number": "202020",
+    "نوع پرونده": "بشردوستانه",
+    "تاریخ تائیدیه پرونده": "01/01/2025",
+    "تاریخ مصاحبه تعیین شده": "17/11/2025",
+    "مبلغ قابل پرداخت مصاحبه": "230 یورو",
+    "سازمان معرفی کننده متقاضی": "UNHCR"
   }
 ]
